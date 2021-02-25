@@ -1,0 +1,15 @@
+M1 = dlmread('Purity_1st_loc.txt');
+M2 = dlmread('Purity_2nd_loc.txt);
+M3 = dlmread('Purity_3rd_loc.txt');
+M4 = dlmread('Purity_4th_loc.txt');
+M5 = dlmread('Purity_5th_loc.txt');
+
+t = M1(:,2);
+Sz1 = M1(:,5);
+Sz2 = M2(:,4);
+Sz3 = M3(:,4);
+Sz4 = M4(:,4);
+Sz5 = M5(:,5);
+
+S = 5;
+
